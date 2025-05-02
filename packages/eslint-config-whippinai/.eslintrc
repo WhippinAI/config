@@ -1,0 +1,14 @@
+{
+  "root": true,
+  "extends": [
+    "./base.js"
+  ],
+  "overrides": [
+    {
+      "files": ["./index.js"],
+      "rules": {
+        "check-file/no-index": "off"
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+    "name": "eslint-config-whippinai",
+    "version": "0.1.7",
+    "description": "A comprehensive ESLint configuration with support for JavaScript, TypeScript, and React",
+    "keywords": [
+        "eslint",
+        "eslintconfig",
+        "typescript",
+        "react",
+        "javascript",
+        "linting",
+        "security",
+        "accessibility"
+    ],
+    "homepage": "https://github.com/whippinai/config",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/whippinai/config"
+    },
+    "license": "MIT",
+    "author": "0xChqrles <noreply@chqrles.me>",
+    "scripts": {
+        "lint": "eslint ."
+    },
+    "main": "index.js",
+    "files": [
+        "index.js",
+        "base.js",
+        "typescript.js",
+        "react.js"
+    ],
+    "peerDependencies": {
+        "eslint": "^8.0.0",
+        "react": ">=16.8.0",
+        "typescript": ">=4.0.0"
+    },
+    "devDependencies": {
+        "eslint": "^8.0.0",
+        "react": "^18.0.0",
+        "typescript": "^5.8.2"
+    },
+    "dependencies": {
+        "@typescript-eslint/eslint-plugin": "^8.31.1",
+        "@typescript-eslint/parser": "^8.31.1",
+        "eslint-config-prettier": "^10.1.2",
+        "eslint-import-resolver-typescript": "^3.6.1",
+        "eslint-plugin-check-file": "^3.2.0",
+        "eslint-plugin-import": "^2.31.0",
+        "eslint-plugin-jest": "^28.11.0",
+        "eslint-plugin-jsx-a11y": "^6.10.2",
+        "eslint-plugin-no-relative-import-paths": "^1.6.1",
+        "eslint-plugin-no-unsanitized": "^4.1.2",
+        "eslint-plugin-prettier": "^5.2.6",
+        "eslint-plugin-promise": "^7.2.1",
+        "eslint-plugin-react": "^7.33.2",
+        "eslint-plugin-react-hooks": "^4.6.0",
+        "eslint-plugin-security": "^3.0.1",
+        "eslint-plugin-spellcheck": "^0.0.20",
+        "eslint-plugin-unused-imports": "^4.1.4",
+        "prettier": "3.5.3"
+    },
+    "engines": {
+        "node": ">=16.0.0"
+    }
+}
